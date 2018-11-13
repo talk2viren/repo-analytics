@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 export _GIT_SINCE="09-20-2018"
 
 REPOS=(
