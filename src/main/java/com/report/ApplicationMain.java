@@ -13,13 +13,13 @@ import static com.conf.Constants.FINAL_REPORT_FILE;
 import static com.conf.Constants.ROW_DATA_FILE;
 import static com.util.RepoUtil.getValidUser;
 
-public class RemoveDup {
+public class ApplicationMain {
 
     public static void main(String[] args) {
 
-        RemoveDup removeDup = new RemoveDup();
-//        removeDup.removeDuplicatesFromRowFile();
-        removeDup.consolidatedReport();
+        ApplicationMain applicationMain = new ApplicationMain();
+//        applicationMain.removeDuplicatesFromRowFile();
+        applicationMain.consolidatedReport();
 
     }
 
